@@ -153,6 +153,10 @@ nav .fas{
         font-size: 36px;
     }
 
+    .h{
+        margin-top: 100px;
+    }
+
      p{
         font-size: 12px;
         font-weight: 300;
@@ -417,11 +421,24 @@ border-radius: 50%;
 }
 
 
+
+
+
+
+
 /* <!-- -----------------Footerrr---------------- --> */
 
 
 .footerr{
-    
+    padding-top: 100px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.footerrr{
+    padding-top: 150px;
     width: 100%;
     text-align: center;
     margin: auto;
@@ -430,6 +447,7 @@ border-radius: 50%;
 }
 
 .footerr h4{
+    
     font-weight: 600;
     margin-bottom: 25px;
 }
@@ -487,9 +505,96 @@ border-radius: 50%;
      border: 1px solid rgb(37, 15, 11);
      color: rgb(192, 132, 121);
      
-     
+ }
+
+
+
+ /* .....................blog content.......................blog */
+
+
+.blog_content{
+    margin-left: 20px;
+    width: 80%;
+    padding: 50px 0;
 
  }
+
+ .blog_left{
+
+    flex-basis: 64%;
+ }
+
+ .blog_left img{
+     width: 100%;
+ }
+
+ .blog_left h2{
+     font-weight: 600;
+     margin: 30px 0;
+     color: black;
+
+ }
+
+ .blog_left p{
+     color: rgb(31, 30, 30);
+     padding: 0;
+ }
+
+
+ .blog_right{
+     flex-basis: 32%;
+ }
+
+ .blog_right h3{
+
+    color: white;
+    background: brown;    
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 7px 0;;
+ }
+
+ .blog_right div{
+     align-items: center;
+     display: flex;
+     color: black;
+     padding: 8px;
+     box-sizing: border-box;
+     justify-content: space-between;
+     
+
+
+
+ }
+
+
+ .comment_box{
+     margin: 50px 0;
+     padding:  10px 20px;
+     border: 1px solid #ccc;
+
+ }
+
+ .comment_box h3{
+   text-align: left;
+ }
+
+ .commentform input , .commentform textarea{
+     padding: 10px;
+     margin: 15px 0;
+     box-sizing: border-box;
+     border: none;
+     outline: none;
+     background: #f0f0f0;
+     width: 100%;
+ }
+
+ .commentform button{
+     margin: 10px;
+ }
+
+
+
 
 
 
